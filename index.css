@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/img_1.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#iphone{
+    display: flex;
+    box-sizing: border-box;
+    padding: 10vh 5vh;
+    width: 50vh;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+#iphone a {
+    display: block;
+    /*background: #ff0000;*/
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10%;
+    margin: 1vh;
+    text-align: center;
+}
+
+#wam {
+    background-image: url("images/peppa.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#refrigirator {
+    background-image: url("images/peppa_90.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+#bombcountdown {
+    background-image: url("images/bombcountdown.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+
+#artStation {
+    background-image: url("images/art.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
